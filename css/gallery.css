@@ -1,0 +1,124 @@
+.bass-content{
+    height: 766px;
+    background-size: 100% 100%;
+    background-blend-mode:multiply;
+    background-image:url("../assets/Bass-wallpaper.jpg");
+    background-color:rgba(23,18,50,0.79);
+    display: flex;
+    flex-direction:column;
+}
+
+.electric-content{
+    height: 766px;
+    background-blend-mode:multiply;
+    background-image:url("../assets/electric-background.jpg");
+    background-color:rgba(23,18,50,0.79);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction:column;
+}
+
+.classic-content{
+    height: 766px;
+    background-blend-mode:multiply;
+    background-image:url("../assets/Classic-background.jpg");
+    background-color:rgba(23,18,50,0.79);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction:column;
+}
+
+.guitar-title{
+    font-family: 'Kameron', serif;
+    font-size: 70px;
+    padding-top:50px;
+    padding-bottom:50px;
+    height:90px;
+    width:100%;
+    text-align:center;
+    font-weight: bold;
+    color: white;
+    
+    
+}
+
+.guitars-showcase{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.guitar-sell{
+    width: 307px;
+    height:518px;
+    background-color: rgba(255, 236, 208);
+    border-radius:45px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-evenly;
+    border: solid 5px transparent;
+}
+
+.guitar-sell:hover{
+    cursor: pointer;
+    border: solid 5px #b94402;
+}
+
+.guitar-pic{
+    width: 270px;
+    height: 309px;
+    border-radius:20px;
+    
+    border: solid 3px #b94402;
+}
+
+.guitar-desc{
+    font-family: 'Kameron', serif;
+    font-size: 25px;
+    font-weight:normal;
+    text-align:center;
+    height:100px;
+    padding-left: 8px;
+    padding-right:8px;
+    display: flex;
+    align-items:center;
+    padding-bottom:8px;
+}
+
+.guitar-price{
+    font-family: 'Kameron', serif;
+    font-size: 30px;
+    font-weight:bold;
+    text-align:center;
+}
+
+@media only screen and (max-width: 800px){
+
+    .guitars-showcase{
+        height:100%;
+        flex-direction: column;
+        align-items:center;
+        justify-content:space-evenly;
+        }
+    .guitar-title{
+        font-size:40px;
+        padding-bottom:0px;
+        padding-top:20px;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        }
+    .bass-content{
+        padding-top:70px;
+        height:1800px;
+        }
+    .electric-content{
+        padding-top:70px;
+        height:1800px;
+        }
+    .classic-content{
+        padding-top:70px;
+        height:1800px;
+        }
+}
+

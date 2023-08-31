@@ -1,0 +1,104 @@
+.aboutuscontent{
+    height: 766px;
+    background-blend-mode:multiply;
+    background-image:url("../assets/aboutuswallp.jpg");
+    background-color:rgba(23,18,50,0.79);
+    display: flex;
+    flex-direction:column;
+}
+
+.aboutustitle{
+    font-family: 'Kameron', serif;
+    font-size: 70px;
+    padding-top:50px;
+    padding-bottom:20px;
+    height:90px;
+    width:100%;
+    text-align:center;
+    font-weight: bold;
+    color: white;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.isi{
+    background-color: #0e1536;
+    width: 680px;
+    height: 258px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    border: solid 8px black;
+}
+
+
+.imgabtus {
+    width: 329px;
+    height: 258px;
+}
+
+.textabtus {
+    font-family: 'Kameron', serif;
+    color: white;
+    font-size: 20px;
+    font-weight:normal;
+    width: 100%;
+    padding-left:10px;
+    padding-right:10px;
+    height: 115px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    height: 20px;
+}
+
+@media only screen and (max-width: 800px){
+    .aboutustitle {
+        font-size:40px;
+    }
+    
+    .aboutuscontent {
+        padding-top:70px;
+        height: 1356px;
+    }
+    
+    .row{
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .middle {
+    height: 0px;
+    }
+    
+    .isi{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    border: solid 0px black;
+    
+    }
+
+    .imgabtus {
+    width: 329px;
+    height: 258px;
+    }
+
+    .textabtus {
+    font-size: 16px;
+    }
+
+    .tengahtengah {
+        height: 40px;
+    }
+    
+}

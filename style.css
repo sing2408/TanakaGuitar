@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kameron&display=swap');
+*{
+    margin:0;
+}
+
+
+
+.header{
+    display: flex;
+    height: 127px;
+    background-color: #0e1536;
+    flex-direction: row;
+    
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    padding-left: 15px;
+    width:400px;
+    text-decoration:none;
+}
+
+.title{
+    font-family: 'Kameron', serif;
+    font-size: 30px;
+    color:white;
+    font-weight:normal;
+    text-decoration:none;
+}
+
+.logo-pic{
+    width: 90px;
+    height: 90px;
+}
+
+.navigation-bar{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+
+.gallery-bar:hover .dropdown-title-bar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content:center;
+    
+}
+
+.dropdown-title-bar{
+    display: none;
+    height: 300px;
+    width:100%;
+    padding-top:25px;
+    
+    
+    
+}
+
+.dropdown-guitars{
+    font-family: 'Kameron', serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    background-color:#0e1536;
+    width:163.2px;
+    height:71px;
+    text-align:center;
+    padding-top: 15px;
+    
+}
+
+.dropdown-guitars:hover{
+    color:#b94402;
+}
+
+.title-bar-responsive{
+    display: none;;
+}
+
+.title-bar{
+    font-family: 'Kameron', serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.title-bar:hover{
+    color: #b94402;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 134px;
+    background-color: #0e1536;
+    justify-content: center;
+    align-items:center;
+}
+
+.instagram{
+    width: 49px;
+    height: 49px;
+
+}
+
+.socmed-logo{
+    position:relative;
+}
+
+ .socmed-logo img.image-hover {
+    position: absolute;
+    object-fit:contain;
+    opacity: 0;
+    transition: opacity 150ms;
+    left: 0;
+    top:0;
+    
+    }
+
+.socmed-logo:hover img.image-hover {
+    opacity: 1;
+    }
+
+
+
+.youtube{
+    width: 49px;
+    height: 49px;
+}
+
+.twitter{
+    width: 51px;
+    height: 51px;
+}
+
+.facebook{
+    width: 49px;
+    height: 49px;
+}
+
+.copyright{
+    font-family: 'Kameron', serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.logo-footer{
+    width:244px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+@media only screen and (max-width: 800px){
+    
+    .copyright{
+    display:none;
+    }
+
+    .footer{
+        height:90px;
+    }
+
+    .header{
+        height:250px;
+        flex-direction:column;
+        width:100%;
+    }
+
+    .navigation-bar{
+        flex-direction:column;
+        background-color:#0e1536;
+        padding:0px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .title-bar{
+        font-size:20px;
+    }
+
+    .logo{
+        display:none;
+    }
+
+    .gallery-bar{
+        display:none;
+    }
+
+    .title-bar-responsive{
+        display:flex;
+        width:75%;
+        justify-content:space-evenly;
+    }
+
+    
+}
